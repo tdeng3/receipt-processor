@@ -39,7 +39,7 @@ https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/README.md
 git clone https://github.com/tdeng3/receipt-processor.git
 ```
 
-### cd receipt-processor-js
+cd receipt-processor-js
 
 ## Build the Docker Image
 
