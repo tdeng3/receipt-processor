@@ -36,10 +36,8 @@ https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/README.md
 1. Clone the repository:
 
 ```bash
-Copy
-   git clone https://github.com/tdeng3/receipt-processor-js.git
-   cd receipt-processor-js
-
+git clone https://github.com/tdeng3/receipt-processor.git
+cd receipt-processor-js
 ```
 
 ## Build the Docker Image
@@ -47,7 +45,6 @@ Copy
 ### Build the Docker image using the following command:
 
 ```bash
-Copy
 docker build -t receipt-processor .
 ```
 
@@ -56,7 +53,6 @@ docker build -t receipt-processor .
 ### Start the container on port 5000:
 
 ```bash
-Copy
 docker run -p 5000:5000 receipt-processor
 ```
 
@@ -69,7 +65,6 @@ docker run -p 5000:5000 receipt-processor
 ### Example using curl:
 
 ```bash
-Copy
 curl -X POST http://localhost:5000/receipts/process \
      -H "Content-Type: application/json" \
      -d '{
@@ -98,8 +93,7 @@ curl -X POST http://localhost:5000/receipts/process \
 ### Retrieve points for the receipt with a GET request to /receipts/{id}/points:
 
 ```bash
-    Copy
-    curl http://localhost:5000/receipts/generated-receipt-id/points
+curl http://localhost:5000/receipts/generated-receipt-id/points
 ```
 
 ## Response example:
