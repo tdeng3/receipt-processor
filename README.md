@@ -37,8 +37,9 @@ https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/README.md
 
 ```bash
 git clone https://github.com/tdeng3/receipt-processor.git
-cd receipt-processor-js
 ```
+
+### cd receipt-processor-js
 
 ## Build the Docker Image
 
@@ -85,7 +86,7 @@ curl -X POST http://localhost:5000/receipts/process \
 ### The response will include a receipt ID:
 
 ```json
-{ "id": "generated-receipt-id" }
+{ "id": "f3e7810e-5b72-4b8e-a7b4-6e4728b6ef9c" }
 ```
 
 ## Get Points
