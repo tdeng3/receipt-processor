@@ -105,9 +105,9 @@ curl http://localhost:5000/receipts/generated-receipt-id/points
 
 ### If the receipt ID is not found, a 404 error is returned.
 
-API Endpoints
-Endpoint Method Description
-/receipts/process POST Submit a receipt for processing.
-/receipts/{id}/points GET Retrieve points for a processed receipt.
-Contributing
-Contributions are welcome! Please follow these steps:
+## API Endpoints
+
+| Endpoint                | Method | Description                              |
+| ----------------------- | ------ | ---------------------------------------- |
+| `/receipts/process`     | POST   | Submit a receipt for processing.         |
+| `/receipts/{id}/points` | GET    | Retrieve points for a processed receipt. |
